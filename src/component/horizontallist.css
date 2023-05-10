@@ -1,0 +1,19 @@
+.App {
+}
+
+.App .column {
+  width: 30%;
+}
+
+.droppable-col {
+  display: flex;
+}
+
+.items {
+  border: 1px solid black;
+  min-width: 100px;
+  padding: 3px;
+}
+
+.dragging {
+}

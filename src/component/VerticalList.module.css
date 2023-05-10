@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.App .column {
+  width: 30%;
+}
+
+.droppableCol {
+  width: 100%;
+  background-color: blue;
+  padding: 10px 10px 0px 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  margin: 10px;
+  background-color: gray;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.dragging {
+  background-color: aqua;
+}
+
+.items-outer {
+  padding: 5px;
+}
+
+.items2 {
+  margin: 10px;
+  background-color: gray;
+  height: 20px;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 7px;
+}
